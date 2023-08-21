@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Path: certiblock-fla-frontend/styles/globals.css */
+/* fla-steps modification global style */
+.fla-steps .step:before,
+.fla-steps .step:after {
+  background-color: hsl(var(--b1, var(--b2)) / var(--tw-bg-opacity));
+}
+
+.fla-steps .step-primary:before,
+.fla-steps .step-primary:after {
+  background-color: hsl(var(--p) / var(--tw-text-opacity));
+}
